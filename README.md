@@ -1,13 +1,15 @@
 
 # alpine-tempclass
-A lightweight alpine.js plugin for assigning temporary css classes form elements
+A lightweight alpine.js plugin for assigning temporary css classes to elements
 
 ![GitHub file size in bytes](https://img.shields.io/github/size/tvdr/alpine-tempclass/dist/index.js?label=minified&style=flat-square)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/tvdr/alpine-tempclass?label=version&style=flat-square)
 
 ## About
 
-Initial idea was to simply be able to add animation class for elements
+Initial idea was to simply be able to add -mainly just animation classes- for elements
+
+[Demo page](https://tvdr.github.io/alpine-tempclass/)
 
 ```html
 <div x-data="{}" @click="$tempclass('animate-bounce')" class="p-5 text-black bg-blue-200 hover:bg-blue-500 hover:text-white shadow-lg rounded-md mb-2">Bounce self <small>(with the minimum config)</small></div>
@@ -22,7 +24,6 @@ A `String` (with space as delimiter for multiple classes) or an `Array`
 A `Number` for how long to set the classes (default is 1000)
 
 An `Element` to set as target (default is self)
-
 
 
 ## Installation
