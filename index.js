@@ -23,7 +23,7 @@ const AlpineTempclassMagicMethod = {
                     timer = 1000;
                 }else{
                     //only integers!
-                    timer = Math.round(parameters[1]); //only integers
+                    timer = Math.round(parameters[1]);
                 }
 
                 //default is assigning to self
