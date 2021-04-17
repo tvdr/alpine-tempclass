@@ -9,11 +9,12 @@ A lightweight alpine.js plugin for assigning temporary css classes to elements
 
 Initial idea was to simply be able to add -mainly just animation classes- for elements
 
-[Demo page](https://tvdr.github.io/alpine-tempclass/)
-
 ```html
 <div x-data="{}" @click="$tempclass('animate-bounce')" class="p-5 text-black bg-blue-200 hover:bg-blue-500 hover:text-white shadow-lg rounded-md mb-2">Bounce self <small>(with the minimum config)</small></div>
 ```
+
+[Demo page](https://tvdr.github.io/alpine-tempclass/)
+
 ## Usage
 
 By default, `$tempclass` will add classes to self and then remove it after 1000ms.
