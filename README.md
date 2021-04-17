@@ -17,7 +17,7 @@ Initial idea was to simply be able to add -mainly just animation classes- for el
 
 ## Usage
 
-By default, `$tempclass` will add classes to self and then remove it after 1000ms.
+By default, `$tempclass` will add classes to self and then remove them after 1000ms.
 
 Accepts 3 parameters:<br/>
 A `String` (with space as delimiter for multiple classes) or an `Array`
@@ -32,7 +32,7 @@ An `Element` to set as target (default is self)
 Include the following `<script>` tag in the `<head>` of your document (before Alpine):
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/tvdr/alpine-tempclass@0.x.x/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tvdr/alpine-tempclass@1.x.x/dist/index.js"></script>
 ```
 
 ### Manual
