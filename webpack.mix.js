@@ -13,6 +13,7 @@ const LiveReloadPlugin = require('webpack-livereload-plugin')
  */
 
 mix.js('index.js', 'dist/')
+mix.js('index.js', 'docs/')
 mix.webpackConfig({
 	plugins: [
 		new LiveReloadPlugin()
